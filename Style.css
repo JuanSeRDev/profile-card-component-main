@@ -28,7 +28,7 @@
 body {
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 130% -250%, -40% 300%;
     background-color: var(--Dark-cyan);
 }
 
@@ -93,7 +93,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-top: 1px solid var(--Dark-cyan);
+    border-top: 1px solid hsla(0, 0%, 59%, 0.469);
     width: 100%;
 }
 
@@ -102,6 +102,17 @@ p {
     padding: 20px;
 }
 
-
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 800px) {
+    body {
+        background-position: 330% -330%, -200% 430%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-position: -50% -250%, 150% 430%;
+    }
+}
