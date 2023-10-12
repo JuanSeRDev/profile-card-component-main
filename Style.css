@@ -28,7 +28,7 @@
 body {
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-position: 130% -250%, -40% 300%;
+    background-position: 130% 350%, -40% -500%;
     background-color: var(--Dark-cyan);
 }
 
@@ -107,12 +107,12 @@ p {
 
 @media screen and (min-width: 800px) {
     body {
-        background-position: 330% -330%, -200% 430%;
+        background-position: 330% 650%, -200% -650%;
     }
 }
 
 @media screen and (min-width: 1440px) {
     body {
-        background-position: -50% -250%, 150% 430%;
+        background-position: -50% 650%, 150% -650%;
     }
 }
